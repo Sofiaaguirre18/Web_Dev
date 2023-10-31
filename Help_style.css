@@ -1,0 +1,346 @@
+/* Whole page style */
+body {
+    position: relative;
+    width: 1029px;
+    height: 800px;
+    background-color: #f6f6f6;
+    background-image: url(bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+/* LOGO IN NAV */
+.CBSUA-logo {
+    position: absolute;
+    width: 90px;
+    height: 91px;
+    top: 18px;
+    left: 77px;
+    transform: rotate(0.28deg);
+    object-fit: cover;
+}
+
+/* TITLE STYLE */
+.title {
+    position: absolute;
+    width: 246px;
+    top: 120px;
+    left: 0;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+
+}
+
+/* HR LINE IN TOP */
+.HR {
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    top: 150px;
+    left: 0;
+    border: 2px solid #3C7037;
+    margin-left: 20px;
+}
+
+.nav-menu-wrapper {
+    background: white;
+    width: 250px;
+    height: 800px;
+}
+
+.nav-menu {
+    width: 250px;
+    height: 800px;
+    background: linear-gradient(180deg, rgb(141.48, 225.45, 111.97) 5.73%, rgba(255, 255, 255, 0) 100%);
+}
+
+.home .overlap {
+    position: absolute;
+    width: 1032px;
+    height: 800px;
+    top: 0;
+    left: 250px;
+}
+
+.home .frame {
+    position: absolute;
+    width: 1032px;
+    height: 800px;
+    top: 0;
+    left: 0;
+}
+
+.home .overlap-group {
+    position: relative;
+    width: 1030px;
+    height: 800px;
+    background-color: #4b933b00;
+    background-image: url(bg.png);
+    background-size: 100%;
+}
+
+.nav-buttons .home-button {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 170px;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: normal;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons .home-button .icon {
+    position: absolute;
+    width: 30px;
+    height: 19px;
+    top: 15px;
+    left: 60px;
+}
+
+.nav-buttons .record-button {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 220px;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: normal;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons .record-button .icon {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    top: 16px;
+    left: 65px;
+}
+
+.nav-buttons .statistics-button {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 270px;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: normal;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons .statistics-button .icon {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    top: 16px;
+    left: 65px;
+}
+
+.nav-buttons .locker-button {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 320px;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: normal;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons .locker-button .icon {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    top: 16px;
+    left: 65px;
+}
+
+.nav-buttons .home-button:hover,
+.nav-buttons .record-button:hover,
+.nav-buttons .statistics-button:hover,
+.nav-buttons .locker-button:hover,
+.nav-buttons .signOut-button:hover,
+.nav-buttons .help-button:hover {
+    background-color: #90DE89;
+    color: rgb(21, 110, 9);
+    border-radius: 50px 0px 0px 50px;
+}
+
+.HR-2 {
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    top: 650px;
+    left: 0;
+    border: 2px solid #3C7037;
+    margin-left: 20px;
+}
+
+.nav-buttons .signOut-button {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 670px;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: normal;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons .signOut-button .icon {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 16px;
+    left: 65px;
+}
+
+.nav-buttons .help-button {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 720px;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: normal;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons .help-button .icon {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 15px;
+    left: 65px;
+}
+
+.content-wrapper {
+    position: absolute;
+    width: 1115px;
+    height: 700px;
+    top: 0;
+    left: 250px;
+    background-color: #f6f6f6;
+    box-shadow: #000000 0px 0px 10px;
+    background-size: 100% 100%;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 20px
+}
+
+.content-title {
+    display: flex;
+    width: 950px;
+    height: 80px;
+    transform: rotate(0.208deg);
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #535353;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500px;
+    line-height: normal;
+    letter-spacing: 5.25px;
+    font-family: "Inter-SemiBold", Helvetica;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+
+.content-body-title {
+    width: 886.648px;
+    height: 47.701px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 25px;
+    font-family: "Inter-SemiBold", Helvetica;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin-left: 6%;
+    margin-top: 30px;
+
+}
+
+p{
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Inter-SemiBold", Helvetica;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+.content-body-title1{
+    width: 886.648px;
+    height: 47.701px;
+    color: #000;
+    font-size: 18px;
+    font-family: "Inter-SemiBold", Helvetica;
+    margin-top: 4%;
+    margin-left: 6%;
+
+}
+
+.content-body-text1{
+    width: 886.648px;
+    height: 47.701px;
+    color: #000;
+    font-size: 15px;
+    font-family: "Inter-SemiBold", Helvetica;
+    margin-left: 6%;
+}

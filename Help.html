@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual Guide</title>
+  <link rel="stylesheet" href="Help_style.css" />
+</head>
+
+<body>
+  <div class="nav-menu-wrapper">
+    <div class="nav-menu">
+      <div class="overlap-5">
+        <div class="nav-header">
+          <div class="HR"></div>
+          <div class="HR-2"></div>
+          <img class="CBSUA-logo" src="CBSUA_logo.png" />
+          <div class="title">LOCKER&nbsp;&nbsp;MANAGEMENT SYSTEM</div>
+        </div>
+        <div class="nav-buttons">
+          <button class="home-button" onclick="location.href='Home.html'">
+            <img src="HomeIcon.png" alt="Home Icon" class="icon"> Home
+          </button>
+          <button class="record-button" onclick="location.href='Record.html'">
+            <img src="record_icon.png" alt="Record Icon" class="icon"> Record
+          </button>
+          <button class="statistics-button" onclick="location.href='Statistic.html'">
+            <img src="statistics.png" alt="Statistic Icon" class="icon"> &nbsp; Statistic
+          </button>
+          <button class="locker-button" onclick="location.href='Locker.html'">
+            <img src="locker_icon.png" alt="Locker Icon" class="icon"> Locker
+          </button>
+          <button class="signOut-button" onclick="location.href='Sign_out.html'">
+            <img src="User Icon.png" alt="Sign-Out Icon" class="icon"> Sign out
+          </button>
+          <button class="help-button" onclick="location.href='Help.html'" disabled>
+            <img src="help_icon.png" alt="Help Icon" class="icon"> Help
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="content">
+      <div class="content-header">
+        <div class="content-title">MANUAL</div>
+      </div>
+      <div class="content-body">
+        <div class="content-body-title">HOMEPAGE</div>
+        <div class="content-body-text">
+          <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Homepage serves as the entry point to the
+            Locker Management System. Users can initiate transactions
+            by entering their school ID and locker preference. It ensures registered users can smoothly proceed to avail
+            lockers, while unregistered users are guided to log in first. The transaction form collects user
+            information, allowing secure locker access. Additionally, the Homepage provides a quick glimpse of the last
+            user's locker transaction details for added convenience.</p>
+        </div>
+        <div class="content-body-title1">TRANSACTION</div>
+        <div class="content-body-text1">
+          <ol>
+            <li>The user will first enter their school ID and what locker will they avail.</li>
+            <li>The System will check if the school ID inputted was already registered in the login system, if not then
+              a notification will pop up that the user must login first before proceeding to avail a locker.</li>
+            <li>If the school ID provided by the user is already registered in the login system, then the system will
+              direct the user to the transaction form where in he'll have to fill up the following information ( the
+              school ID and locker is given ).</li>
+            <ul>
+              <li>Name : Surname, First name M.I</li>
+              <li>Account type: Student/Employee</li>
+              <li>Department : What department is the student came from or what department the employee is assigned [P.S
+                other option will also presented in case the employee is not part of any department]</li>
+              <li>Gender: Male, Female, others</li>
+            </ul>
+            <li>If the information is all completely filled up then the patron’s information will be stored in the
+              database with a status of “pending”, however if the information given by the user is not yet filled up or
+              some information is inappropriate then the system will ask the patron to input other valid input that
+              correspond to what is being asked</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
